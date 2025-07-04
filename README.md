@@ -4,7 +4,7 @@ Welcome to the **Online Voting System** – a secure and dynamic web-based appli
 
 This project allows administrators to create elections and add candidates, while registered voters can cast their vote **only once**. The system displays **real-time election results**, with visualizations and mobile responsiveness.
 
-![Voting Percentage](screenshots/Voting%20Percentage%20With%20Pie%20Chart-1%20Online%20Voting%20System.png)
+![Voting Percentage](screenshots/Home%20Page%20Online%20Voting%20System.png) 
 
 ---
 
