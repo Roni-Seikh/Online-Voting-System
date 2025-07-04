@@ -56,14 +56,6 @@ This project allows administrators to create elections and add candidates, while
 Sure! Here's the full section you're requesting — **including all screenshots you listed** (both web and mobile) and in **one clean copy-paste format** for use in your `README.md` file:
 
 ---
-
-````markdown
-## 🏗️ Project Setup
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Roni-Seikh/Online-Voting-System.git
-````
 2. Import the MySQL database from `database.sql`.
 3. Place the project in your server directory (e.g., `htdocs` if using XAMPP).
 4. Start Apache and MySQL.
