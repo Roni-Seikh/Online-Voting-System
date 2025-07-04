@@ -1,0 +1,240 @@
+/* Index Page Styling */
+
+/* Header styling*/
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#header .logo {
+  width: 5rem;
+}
+
+/* Navbar styling */
+#header h1 {
+  color: #088178;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+/* Hero Section styling */
+#hero {
+  background-image: url("../assets/Home.png"); 
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#hero h1 {
+  color: #088178;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#hero p {
+  font-size: 16px;
+  color: #333;
+  max-width: 500px;
+}
+
+#hero button {
+  background-color: transparent;
+  color: #088178;
+  border: 2px solid #088178;
+  padding: 14px 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#hero button:hover {
+  background-color: #088178;
+  color: #fff;
+}
+
+/* Contact Section styling */
+#contact {
+  background-color: #f8f9fa;
+  padding: 60px 80px;
+  border-top: 2px solid #e3e6f3;
+  border-bottom: 2px solid #e3e6f3;
+}
+
+#contact h2 {
+  color: #088178;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact .form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+#contact .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .form-control:focus {
+  border-color: #088178;
+  box-shadow: 0 0 0 0.2rem rgba(8, 129, 120, 0.25);
+}
+
+#contact button[type="submit"] {
+  background-color: #088178;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#contact button[type="submit"]:hover {
+  background-color: #066e68;
+}
+
+#carousel-section img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+#stats h3 {
+  font-size: 2.5rem;
+  color: #088178;
+  font-weight: bold;
+}
+
+#stats p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Register And Login Page Styling */
+
+#register-section {
+  background-color: #f4f8fb;
+  padding: 60px 40px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(8, 129, 120, 0.1);
+}
+
+#register-section h2 {
+  color: #088178;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#register-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.register-form .form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.register-form .form-control,
+.register-form .form-select {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-form .form-control:focus,
+.register-form .form-select:focus {
+  border-color: #088178;
+  box-shadow: 0 0 0 0.2rem rgba(8, 129, 120, 0.25);
+}
+
+.btn-register {
+  background-color: #088178;
+  color: white;
+  padding: 12px 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #066e68;
+}
