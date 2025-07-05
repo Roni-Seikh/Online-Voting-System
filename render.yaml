@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: online-voting-system
+    env: custom
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:$PORT
+    plan: free
